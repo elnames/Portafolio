@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="4" y1="6" x2="28" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="8" fill="url(#bg)"/>
+  <!-- Subtle inner border -->
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="7.25" stroke="url(#stroke)" stroke-opacity="0.25" stroke-width="1.5"/>
+  <!-- Stylized N shape -->
+  <path d="M8 24 L8 8 L12 8 L20 20 L20 8 L24 8 L24 24 L20 24 L12 12 L12 24 Z" fill="url(#stroke)"/>
+</svg>
